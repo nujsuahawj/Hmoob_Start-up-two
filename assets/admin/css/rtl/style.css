@@ -21,9 +21,6 @@
     @Typography
 -----------------*/
 
-
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"); */
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500&display=swap');
 
 /*====================
@@ -635,7 +632,7 @@ select:focus {
 .mr-breadcrumb .links li a::after {
     position: absolute;
     content: "\eaa0";
-    font-family: 'Noto Sans Lao', sans-serif;
+    font-family: IcoFont;
     top: 0;
     right: -20px;
     color: #143250;

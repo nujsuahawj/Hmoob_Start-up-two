@@ -27,9 +27,6 @@
     @Typography
 -----------------*/
 
-
-/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100;400&display=swap"); */
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500&display=swap');
 
 /*====================
@@ -666,7 +663,7 @@ Breadcrumb Area Start
 .breadcrumb-area .pages li a::after {
     position: absolute;
     content: "\ea98";
-    font-family: 'Noto Sans Lao', sans-serif;
+    font-family: IcoFont;
     top: 3px;
     left: -20px;
     transform: rotate(180deg);
@@ -3198,7 +3195,7 @@ nav button {
 .product-details-page .right-area .product-info .product-color .color-list li .box::after {
     position: absolute;
     content: "\eed8";
-    font-family: 'Noto Sans Lao', sans-serif;
+    font-family: IcoFont;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -3253,7 +3250,7 @@ nav button {
 .product-details-page .right-area .product-info .mproduct-color .color-list li .box::after {
     position: absolute;
     content: "\eed8";
-    font-family: 'Noto Sans Lao', sans-serif;
+    font-family: IcoFont;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -6872,7 +6869,7 @@ Faq Page Start
 .ui-accordion .ui-accordion-header::before {
     position: absolute;
     content: "\efca";
-    font-family: 'Noto Sans Lao', sans-serif;
+    font-family: "IcoFont";
     right: 15px;
 }
 
