@@ -261,10 +261,10 @@
 							</ul>
 						</li>
 
-						<li>
+						{{--  <li>
 							<a href="{{ route('admin-prod-import') }}"><i
 									class="fas fa-upload"></i>{{ __('Bulk Product Upload') }}</a>
-						</li>
+						</li>  --}}
 
 						<li>
 							<a href="#menu4" class="accordion-toggle wave-effect" data-toggle="collapse"
@@ -548,7 +548,7 @@
 									class="fas fa-users-cog mr-2"></i>{{ __('Subscribers') }}</a>
 						</li>
 
-						<li>
+						{{--  <li>
 							<a href="#sactive" class="accordion-toggle wave-effect" data-toggle="collapse"
 								aria-expanded="false">
 								<i class="fas fa-cog"></i>{{ __('System Activation') }}
@@ -558,14 +558,14 @@
 								<li><a href="{{route('admin-activation-form')}}"> {{ __('Activation') }}</a></li>
 								<li><a href="{{route('admin-generate-backup')}}"> {{ __('Generate Backup') }}</a></li>
 							</ul>
-						</li>
+						</li>  --}}
 
 						@endif
 
 
 					</ul>
 
-					<p class="version-name"> Version: 1.2</p>
+					<p class="version-name"> Version: 1.0</p>
 				</nav>
 				<!-- Main Content Area Start -->
 				@yield('content')

@@ -344,7 +344,7 @@
 
 
 
-    <div class="row row-cards-one">
+    {{--  <div class="row row-cards-one">
 
         <div class="col-md-6 col-lg-6 col-xl-6">
             <div class="card">
@@ -363,14 +363,16 @@
                 <div class="card">
                         <h5 class="card-header">{{ __('Most Used OS') }}</h5>
                         <div class="card-body">
-<div class="admin-fix-height-card">
-                        <div id="chartContainer-os"></div>
-</div>
+                            <div class="admin-fix-height-card">
+                                <div id="chartContainer-os">
+
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                </div>
         </div>
         
-    </div>
+    </div>  --}}
 
 
 
