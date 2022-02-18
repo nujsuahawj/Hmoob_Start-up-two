@@ -89,14 +89,14 @@
 														Auth::check() ? 'readonly' : '' !!}>
 												</div>
 												<div class="col-lg-6">
-													<input type="email" id="personal-email" class="form-control"
+													<input type="text" id="personal-email" class="form-control"
 														name="personal_email" placeholder="{{ $langg->lang748 }}"
 														value="{{ Auth::check() ? Auth::user()->email : '' }}" {!!
 														Auth::check() ? 'readonly' : '' !!}>
 												</div>
 											</div>
 											@if(!Auth::check())
-											<div class="row">
+											{{--  <div class="row">
 												<div class="col-lg-12 mt-3">
 													<input class="styled-checkbox" id="open-pass" type="checkbox"
 														value="1" name="pass_check">
@@ -113,7 +113,7 @@
 														id="personal-pass-confirm" class="form-control"
 														placeholder="{{ $langg->lang751 }}">
 												</div>
-											</div>
+											</div>  --}}
 											@endif
 										</div>
 										<div class="billing-address">
@@ -175,13 +175,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="row {{ $digital == 1 ? 'd-none' : '' }}">
+										{{--  <div class="row {{ $digital == 1 ? 'd-none' : '' }}">
 											<div class="col-lg-12 mt-3">
 												<input class="styled-checkbox" id="ship-diff-address" type="checkbox"
 													value="value1">
 												<label for="ship-diff-address">{{ $langg->lang160 }}</label>
 											</div>
-										</div>
+										</div>  --}}
 										<div class="ship-diff-addres-area d-none">
 											<h5 class="title">
 												{{ $langg->lang752 }}
@@ -799,9 +799,9 @@
 
 						@endif
 
-						<a href="{{ route('front.checkout') }}" class="order-btn mt-4">
+						{{--  <a href="{{ route('front.checkout') }}" class="order-btn mt-4">
 							{{ $langg->lang135 }}
-						</a>
+						</a>  --}}
 					</div>
 				</div>
 			</div>
