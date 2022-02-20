@@ -78,7 +78,7 @@
 
 									<div class="content">
 										<div class="personal-info">
-											<h5 class="title">
+											{{--  <h5 class="title">
 												{{ $langg->lang746 }} :
 											</h5>
 											<div class="row">
@@ -94,7 +94,7 @@
 														value="{{ Auth::check() ? Auth::user()->email : '' }}" {!!
 														Auth::check() ? 'readonly' : '' !!}>
 												</div>
-											</div>
+											</div>  --}}
 											@if(!Auth::check())
 											{{--  <div class="row">
 												<div class="col-lg-12 mt-3">
@@ -121,13 +121,13 @@
 												{{ $langg->lang147 }}
 											</h5>
 											<div class="row">
-												<div class="col-lg-6 {{ $digital == 1 ? 'd-none' : '' }}">
+												{{--  <div class="col-lg-6 {{ $digital == 1 ? 'd-none' : '' }}">
 													<select class="form-control" id="shipop" name="shipping"
 														required="">
 														<option value="shipto">{{ $langg->lang149 }}</option>
 														<option value="pickup">{{ $langg->lang150 }}</option>
 													</select>
-												</div>
+												</div>  --}}
 
 												<div class="col-lg-6 d-none" id="shipshow">
 													<select class="form-control nice" name="pickup_location">
@@ -144,7 +144,7 @@
 														value="{{ Auth::guard('web')->check() ? Auth::guard('web')->user()->name : '' }}">
 												</div>
 												<div class="col-lg-6">
-													<input class="form-control" type="text" name="phone"
+													<input class="form-control" type="number" name="phone"
 														placeholder="{{ $langg->lang153 }}" required=""
 														value="{{ Auth::guard('web')->check() ? Auth::guard('web')->user()->phone : '' }}">
 												</div>
@@ -305,8 +305,9 @@
 										<div class="row">
 											<div class="col-lg-12 mt-3">
 												<div class="bottom-area">
-													<a href="javascript:;" id="step1-btn"
-														class="mybtn1 mr-3">{{ $langg->lang757 }}</a>
+													{{--  <a href="javascript:;" id="step1-btn"
+														class="mybtn1 mr-3">{{ $langg->lang757 }}
+													</a>  --}}
 													<a href="javascript:;" id="step3-btn"
 														class="mybtn1">{{ $langg->lang753 }}</a>
 												</div>
@@ -564,8 +565,9 @@
 											<div class="col-lg-12 mt-3">
 												<div class="bottom-area">
 
-													<a href="javascript:;" id="step2-btn"
-														class="mybtn1 mr-3">{{ $langg->lang757 }}</a>
+													{{--  <a href="javascript:;" id="step2-btn"
+														class="mybtn1 mr-3">{{ $langg->lang757 }}
+													</a>  --}}
 													<button type="submit" id="final-btn"
 														class="mybtn1">{{ $langg->lang753 }}</button>
 												</div>
